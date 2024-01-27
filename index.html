@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ache o botão</title>
+</head>
+<body>
+    <div id="darkLayer"></div>
+    <button id="hiddenButton" onclick="openModal()">Achou!</button>
+    
+    <div id="modalContainer" class="hidden">
+        <div id="modalContent">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p>Feche o mapa do maroto:</p>
+            <input type="text" id="answer" name="answer" required>
+            <button onclick="checkAnswer()">Verificar</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
