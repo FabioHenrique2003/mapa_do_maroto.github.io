@@ -29,7 +29,7 @@ function checkAnswer() {
 
     // Adicione a lógica de verificação aqui. Por exemplo:
     if (answer === "mal feito feito") {
-        alert("Fechando mapa do maroto... Seu presente está na sua terceira gaveta");
+        alert("Fechando mapa do maroto... Vá buscar teu presente com teu amado");
         closeModal();
         // Adicione aqui qualquer ação adicional após uma resposta correta.
     } else {
